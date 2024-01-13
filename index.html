@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+ 
+</head>
+<body>
+  <div class="container">
+    
+  <div class="flex">
+    <div>
+  <label for="day">Day</label>
+  <input type="number" max="31" min="0" id="day"  placeholder="DD">
+  <span class="error" id="hey"></span>
+  </div>
+    <div>
+  <label for="month">Month</label>
+  <input type="number" max="12" min="0" id="month" placeholder="MM">
+  <span class="error" id="hey2"></span>
+    </div>
+    <div>
+  <label for="year">Year</label>
+  <input type="number" id="year" min="0" placeholder="YYYY">
+  <span class="error" id="hey3"></span>
+    </div>
+  </div>
+  <hr>
+  <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+  </button>
+  <p><span id="yearnum">--</span> years</p>
+  <p><span id="monthnum">--</span> months</p>
+  <p><span id="daynum">--</span> days</p>
+  
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
